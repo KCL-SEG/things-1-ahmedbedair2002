@@ -24,6 +24,3 @@ class Thing(models.Model):
         )
         
 
-    # returns the name of the thing
-    def __str__(self):
-        return self.name
